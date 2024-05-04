@@ -16,13 +16,13 @@ const NavbarComponent = () => {
     <>
             <div className='sticky top-0 navbg h-[86px] flex justify-between items-center text-white px-[50px] py-[16px] z-50'>
                 <div className='flex'>
-                    <p className='text-[40px] me-10 font-bold cursor-pointer'>H2O+</p>
+                    <p className='font-[PoppinsBold] text-[40px] me-10 font-bold cursor-pointer'>H<span className='text-[#96D4EB]'><sub>2</sub></span>O+</p>
                     <div className='hidden lg:block'>
                     <div className=' flex gap-x-[30px] font-[ProximaNovaLight] text-[16px] h-full text-[#BBBCBC]'>
-                        <a className='my-auto hover:text-[#d3d5d5]' href="#about">Know the Dangers</a>
-                        <a className='my-auto hover:text-[#d3d5d5]' href="#skills">About Us</a>
-                        <a className='my-auto hover:text-[#d3d5d5]' href="#projects">projects</a>
-                        <a className='my-auto hover:text-[#d3d5d5]' href="#contact">FAQ</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#about">Know the Dangers</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#skills">About Us</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#projects">projects</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#contact">FAQ</a>
 
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const NavbarComponent = () => {
 
                 <div className='hidden lg:block'>
                     <div className=' flex gap-x-[40px]'>
-                            <button className='emergencyBtn h-[51px] w-[200px] rounded-[30px]'><a href="">EMERGENCY</a></button>
+                            <button className='emergencyBtn font-[PoppinsBold] h-[51px] w-[200px] rounded-[30px] pt-1'><a href="">EMERGENCY</a></button>
                     
                     </div>
                 </div>
