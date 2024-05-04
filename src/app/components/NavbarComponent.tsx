@@ -29,7 +29,7 @@ const NavbarComponent = () => {
                         <a href="#about">about</a>
                         <a href="#skills">skills</a>
                         <a href="#projects">projects</a>
-                        <a href="#contact">contact</a>
+                        <a href="#contact">fqa</a>
 
                     </div>
                 </div>
