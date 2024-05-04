@@ -19,9 +19,9 @@ const NavbarComponent = () => {
                     <p className='font-[PoppinsBold] text-[40px] me-10 font-bold cursor-pointer'>H<span className='text-[#96D4EB]'><sub>2</sub></span>O+</p>
                     <div className='hidden lg:block'>
                     <div className=' flex gap-x-[30px] font-[ProximaNovaLight] text-[16px] h-full text-[#BBBCBC]'>
-                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#about">Know the Dangers</a>
-                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#skills">How to Prepare</a>
-                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#contact">FAQ</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#dangers">Know the Dangers</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#prepare">How to Prepare</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#faq">FAQ</a>
 
                     </div>
                 </div>
@@ -50,10 +50,9 @@ const NavbarComponent = () => {
                 {isOpen ?
                     <div className='bg-black p-10'>
                         <div className='flex flex-col gap-y-[20px] font-[ProximaNovaLight] text-white text-[30px]'>
-                            <a href="#about">about</a>
-                            <a href="#skills">skills</a>
-                            <a href="#projects">projects</a>
-                            <a href="#contact">faq</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#dangers">Know the Dangers</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#prepare">How to Prepare</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#faq">FAQ</a>
                         </div>
                         <div className=' flex justify-evenly gap-x-[40px] pt-[20px]'>
                             <a href=""></a>
