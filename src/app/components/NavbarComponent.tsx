@@ -14,7 +14,7 @@ const NavbarComponent = () => {
     };
   return (
     <>
-            <div className='sticky top-0 navbg h-[86px] flex justify-between items-center text-white px-[50px] py-[16px] z-50'>
+            <div className='sticky top-0 navbg h-[86px] flex justify-between items-center text-white px-[50px] py-[16px] z-50 backdrop-blur-md'>
                 <div className='flex'>
                     <p className='font-[PoppinsBold] text-[40px] me-10 font-bold cursor-pointer'>H<span className='text-[#96D4EB]'><sub>2</sub></span>O+</p>
                     <div className='hidden lg:block'>
