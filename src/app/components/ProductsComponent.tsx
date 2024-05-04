@@ -1,10 +1,14 @@
 import React from 'react'
-
+import Image from 'next/image'
+import floodMaps from '@/assets/floodtrans.png'
 const ProductsComponent = () => {
     return (
         <div className='bg-[#96D4EC] grid grid-cols-2 p-[50px]'>
             <div className='border-r border-black pb-[50px] px-[50px]'>
                 <p className='text-[2.5rem] font-[PoppinsBold]'>Know the Dangers</p>
+                <div>
+                    <Image src={floodMaps} alt='flood map'/>
+                </div>
             </div>
             <div className='p-[50px] font-[PoppinsLight]'>
                 <p>{"On average, more deaths occur due to flooding each year than from any other severe weather related hazard."}</p>
