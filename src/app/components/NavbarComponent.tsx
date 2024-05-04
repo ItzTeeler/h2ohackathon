@@ -20,7 +20,7 @@ const NavbarComponent = () => {
                     <div className='hidden lg:block'>
                     <div className=' flex gap-x-[30px] font-[ProximaNovaLight] text-[16px] h-full text-[#BBBCBC]'>
                         <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#about">Know the Dangers</a>
-                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#skills">About Us</a>
+                        <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#skills">How to Prepare</a>
                         <a className='font-[PoppinsRegular] my-auto hover:text-[#d3d5d5]' href="#contact">FAQ</a>
 
                     </div>
