@@ -10,14 +10,14 @@ const World = dynamic(() => import("../components/ui/globe").then((m) => m.World
 export function EarthComponent() {
   const globeConfig = {
     pointSize: 4,
-    globeColor: "#062056",
+    globeColor: "#96D4EC",
     showAtmosphere: true,
     atmosphereColor: "#FFFFFF",
     atmosphereAltitude: 0.1,
     emissive: "#062056",
     emissiveIntensity: 0.1,
     shininess: 0.9,
-    polygonColor: "rgba(255,255,255,0.7)",
+    polygonColor: "#00144b",
     ambientLight: "#38bdf8",
     directionalLeftLight: "#ffffff",
     directionalTopLight: "#ffffff",
@@ -30,7 +30,7 @@ export function EarthComponent() {
     autoRotate: true,
     autoRotateSpeed: 0.5,
   };
-  const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
+  const colors = ["#1d1f21", "#1d1f21", "#1d1f21"];
   const sampleArcs = [
     {
       order: 1,
