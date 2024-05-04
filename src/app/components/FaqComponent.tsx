@@ -23,7 +23,9 @@ const FaqComponent = () => {
                         <p className='text-[#9ca3af]  font-[PoppinsLight] ml-[10px] '>{"Be aware of whether your residence falls within a flood-prone area, stay vigilant about weather predictions, and heed advice from local authorities."}</p>
 
 
-                        <p className='ml-[10px] font-[PoppinsLight] text-[#9ca3af] '>Find your local evacuation map  <a target='_blank' className='text-white underline' href='https://sjmap.org/evacmaps/'>here.</a> </p>
+                        <p className='ml-[10px] font-[PoppinsLight] text-[#9ca3af] '>Find your local evacuation map  <a target='_blank' className='text-white underline' href='https://sjmap.org/evacmaps/'>here</a>.</p>
+                        <p className='ml-[10px] font-[PoppinsLight] text-[#9ca3af] '>Find San Joaquin Shelter nearby <a target='_blank' className='text-white underline' href='https://www.sjgov.org/department/oes/care-shelter'>here</a>.</p>
+
 
 
 

@@ -4,7 +4,7 @@ import { EarthComponent } from './EarthComponent'
 
 const FAQsComponent = () => {
   return (
-    <div className='grid grid-cols-2 mb-[125px]' id='faq'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 mb-[125px]' id='faq'>
       <div className='ps-[100px] mt-[75px]'>
         <p className='text-[40px] text-white font-semibold font-[PoppinsBold] mb-14'>FAQ</p>
         <div className='grid grid-cols-2'>
@@ -20,11 +20,15 @@ const FAQsComponent = () => {
             <p className='text-[24px] text-white font-semibold font-[PoppinsBold] mb-3'>{'Main flood causes?'}</p>
             <p className='text-[#9ca3af] font-[PoppinsRegular]'>{"Heavy or prolonged rainfall, rapid melting of snow or ice, ice jams in rivers, storm surges from tropical cyclones, and dam or levee failures are some common causes of floods."}</p>
           </div>
-            
+
         </div>
       </div>
 
-      <EarthComponent/>
+
+      <div className='hidden lg:block'>
+        <EarthComponent />
+      </div>
+
     </div>
   )
 }
