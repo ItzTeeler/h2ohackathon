@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbg {
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.emergencyBtn {
+    color: black;
+    background-color: #96D4EB;
+}
+
+.emergencyBtn:hover {
+    color: white;
+    background-color: black;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

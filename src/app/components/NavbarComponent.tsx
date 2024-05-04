@@ -9,9 +9,18 @@ const NavbarComponent = () => {
     };
   return (
     <>
-            <div className='bg-black h-[90px] flex justify-between items-center text-white px-[50px] py-[18px]'>
-                <div>
-                    <p className='font-[ProximaNovaLight] text-[40px]'>hi</p>
+            <div className='sticky navbg h-[86px] flex justify-between items-center text-white px-[50px] py-[16px]'>
+                <div className='flex'>
+                    <p className='text-[40px] me-10 font-bold cursor-pointer'>H2O+</p>
+                    <div className='hidden lg:block'>
+                    <div className=' flex gap-x-[30px] font-[ProximaNovaLight] text-[16px] h-full text-[#BBBCBC]'>
+                        <a className='my-auto' href="#about">Know the Dangers</a>
+                        <a className='my-auto' href="#skills">About Us</a>
+                        <a className='my-auto' href="#projects">projects</a>
+                        <a className='my-auto' href="#contact">FAQ</a>
+
+                    </div>
+                </div>
                 </div>
                 <div className='block lg:hidden'>
                     <button className='focus:outline-none' onClick={toggleMenu}>
@@ -24,18 +33,11 @@ const NavbarComponent = () => {
                         </svg>
                     </button>
                 </div>
-                <div className='hidden lg:block'>
-                    <div className=' flex gap-x-[50px] font-[ProximaNovaLight] text-[30px]'>
-                        <a href="#about">about</a>
-                        <a href="#skills">skills</a>
-                        <a href="#projects">projects</a>
-                        <a href="#contact">faq</a>
 
-                    </div>
-                </div>
                 <div className='hidden lg:block'>
                     <div className=' flex gap-x-[40px]'>
-                    <a href="">hi</a>
+                            <button className='emergencyBtn h-[51px] w-[200px] rounded-[30px]'><a href="">EMERGENCY</a></button>
+                    
                     </div>
                 </div>
 
@@ -50,7 +52,7 @@ const NavbarComponent = () => {
                             <a href="#contact">faq</a>
                         </div>
                         <div className=' flex justify-evenly gap-x-[40px] pt-[20px]'>
-                            <a href="">hi</a>
+                            <a href=""></a>
                     </div>
                     </div>
                     : ""}
