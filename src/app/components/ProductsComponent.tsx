@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProductsComponent = () => {
     return (
-        <div className='bg-[#96D4EC] grid grid-cols-2 p-[40px]'>
+        <div className='bg-[#96D4EC] grid grid-cols-2 p-[50px]'>
             <div className='border-r border-black pb-[50px] px-[50px]'>
                 <p className='text-[2.5rem] font-bold'>Know the Dangers</p>
             </div>
