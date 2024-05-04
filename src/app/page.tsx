@@ -4,6 +4,7 @@ import ProductsComponent from "./components/ProductsComponent";
 import HeaderComponent from "./components/HeaderComponent";
 import FaqComponent from "./components/FaqComponent";
 import FAQsComponent from "./components/FAQsComponent";
+import FooterComponent from "./components/FooterComponent";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ProductsComponent />
       <FAQsComponent/>
       <FaqComponent />
+      <FooterComponent/>
     </div>
 
   );
