@@ -12,8 +12,8 @@ export default function Home() {
       <NavbarComponent />
       <HeaderComponent />
       <ProductsComponent />
-      <FAQsComponent/>
       <FaqComponent />
+      <FAQsComponent/>
       <FooterComponent/>
     </div>
 
