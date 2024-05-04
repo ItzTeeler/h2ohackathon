@@ -12,7 +12,7 @@ const HeaderComponent = () => {
                 <div className='col-span-1 my-auto'>
                     <p className='text-[54px] text-white font-semibold'>Understanding Flood Risks,</p>
                     <p className='text-[20px] text-white font-thin '>
-                        From 2003 to 2012, total flood insurace claims average nearly 4 billion dollars. In the past
+                        From 2003 to 2012, total flood insurace claims average nearly 4 billion dollars. In the past 5 years all 50 states experienced floods or flash floods. Learn how to prepare.
                     </p>
                 </div>
                 <div className='col-span-1 relative'>
