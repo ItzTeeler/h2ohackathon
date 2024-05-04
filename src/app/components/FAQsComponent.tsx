@@ -5,7 +5,7 @@ import { EarthComponent } from './EarthComponent'
 const FAQsComponent = () => {
   return (
     <div className='grid grid-cols-2 mb-[125px]'>
-      <div className='ps-[100px] mt-[50px]'>
+      <div className='ps-[100px] mt-[75px]'>
         <p className='text-[40px] text-white font-semibold font-[PoppinsBold] mb-14'>FAQ</p>
         <div className='grid grid-cols-2'>
           <div className='me-10'>
