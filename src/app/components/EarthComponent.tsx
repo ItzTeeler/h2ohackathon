@@ -10,14 +10,14 @@ const World = dynamic(() => import("../components/ui/globe").then((m) => m.World
 export function EarthComponent() {
   const globeConfig = {
     pointSize: 4,
-    globeColor: "#96D4EC",
+    globeColor: "#323232",
     showAtmosphere: true,
     atmosphereColor: "#FFFFFF",
     atmosphereAltitude: 0.1,
-    emissive: "#062056",
+    emissive: "#000000",
     emissiveIntensity: 0.1,
     shininess: 0.9,
-    polygonColor: "#00144b",
+    polygonColor: "#ffffff",
     ambientLight: "#38bdf8",
     directionalLeftLight: "#ffffff",
     directionalTopLight: "#ffffff",
@@ -30,7 +30,7 @@ export function EarthComponent() {
     autoRotate: true,
     autoRotateSpeed: 0.5,
   };
-  const colors = ["#1d1f21", "#1d1f21", "#1d1f21"];
+  const colors = ["#ffffff", "#ffffff", "#ffffff"];
   const sampleArcs = [
     {
       order: 1,
@@ -395,7 +395,7 @@ export function EarthComponent() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto bg-[#1d1f21] relative w-full">
+    <div className="flex flex-row justify-center h-screen md:h-auto bg-[#1d1f21] relative w-full">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <motion.div
           initial={{
