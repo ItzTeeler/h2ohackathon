@@ -7,7 +7,7 @@ import highRiskArea from '@/assets/danger-zone-svgrepo-com.svg'
 import landScape from '@/assets/landscape-svgrepo-com.svg'
 const ProductsComponent = () => {
     return (
-        <div className='bg-[#96D4EC] grid grid-cols-2 p-[50px]'>
+        <div className='bg-[#96D4EC] grid grid-cols-2 p-[50px]' id='dangers'>
             <div className='border-r border-black pb-[50px] px-[50px] flex flex-col justify-between'>
                 <p className='text-[2.5rem] font-[PoppinsBold]'>Know the Dangers</p>
                 <div>

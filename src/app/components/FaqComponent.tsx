@@ -12,7 +12,7 @@ const FaqComponent = () => {
 
 
     return (
-        <div className='text-white bg-[#1d1f21]  px-[50px] pb-[50px]' >
+        <div className='text-white bg-[#1d1f21]  px-[50px] pb-[50px]' id='#prepare'>
             <div className='p-[50px] font-[PoppinsLight] flex flex-col gap-y-[20px] '>
 
                 <p className='text-[2.5rem] font-[PoppinsBold] text-center'>Ways to be flood ready</p>
