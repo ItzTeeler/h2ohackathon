@@ -12,11 +12,7 @@ const FaqComponent = () => {
 
 
     return (
-        <div className='text-white bg-[#1d1f21]  p-[50px]'>
-
-
-
-
+        <div className='text-white bg-[#1d1f21]  px-[50px] pb-[50px]' >
             <div className='p-[50px] font-[PoppinsLight] flex flex-col gap-y-[20px] '>
 
                 <p className='text-[2.5rem] font-[PoppinsBold] text-center'>Ways to be flood ready</p>
@@ -25,13 +21,13 @@ const FaqComponent = () => {
                     <div className=' gap-[10px] '>
                         <p className='text-white font-[PoppinsBold] text-[32px]'>Be aware of your risk</p>
                         <p className='text-[#9ca3af]  font-[PoppinsLight] ml-[10px] '>{"Be aware of whether your residence falls within a flood-prone area, stay vigilant about weather predictions, and heed advice from local authorities."}</p>
-                        <ul>
-                            <li>
-                                <p className=' font-[PoppinsLight] text-[#9ca3af] '>Find your local evacuation map  <a className='text-white underline' href='https://sjmap.org/evacmaps/'>here</a> </p>
 
 
-                            </li>
-                        </ul>
+                        <p className='ml-[10px] font-[PoppinsLight] text-[#9ca3af] '>Find your local evacuation map  <a target='_blank' className='text-white underline' href='https://sjmap.org/evacmaps/'>here.</a> </p>
+
+
+
+
                     </div>
                 </div>
 
