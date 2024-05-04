@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "H2Ohackathon",
   description: "H2O",
+  icons: {
+    icon: "./logosvg"
+  }
 };
 
 export default function RootLayout({

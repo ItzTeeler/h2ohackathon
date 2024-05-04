@@ -10,9 +10,9 @@ const HeaderComponent = () => {
         }} className='h-full w-screen bg-[#1d1f21]  overflow-hidden' >
             <div className='grid grid-cols-2 h-[500px] ml-[100px]'>
                 <div className='col-span-1 my-auto'>
-                    <p className='text-[54px] text-white font-semibold'>Understanding Flood Risks,</p>
-                    <p className='text-[20px] text-white font-thin '>
-                        From 2003 to 2012, total flood insurace claims average nearly 4 billion dollars. In the past 5 years all 50 states experienced floods or flash floods. Learn how to prepare.
+                    <p className=' font-[PoppinsBold]  text-[54px] text-white font-semibold'>Understanding Flood Risks,</p>
+                    <p className=' font-[PoppinsLight]  text-[20px] text-white font-thin '>
+                        From 2003 to 2012, total flood insurance claims average nearly 4 billion dollars. In the past 5 years all 50 states experienced floods or flash floods. Learn how to prepare.
                     </p>
                 </div>
                 <div className='col-span-1 relative'>
