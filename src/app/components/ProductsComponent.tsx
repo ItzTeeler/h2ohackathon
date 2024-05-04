@@ -7,14 +7,14 @@ import highRiskArea from '@/assets/danger-zone-svgrepo-com.svg'
 import landScape from '@/assets/landscape-svgrepo-com.svg'
 const ProductsComponent = () => {
     return (
-        <div className='bg-[#96D4EC] grid grid-cols-2 p-[50px]' id='dangers'>
-            <div className='border-r border-black pb-[50px] px-[50px] flex flex-col justify-between'>
+        <div className='bg-[#96D4EC] grid lg:grid-cols-2 p-[20px] lg:p-[50px]' id='dangers'>
+            <div className='lg:border-r lg:border-black pb-[20px] lg:pb-0 lg:px-[50px] flex flex-col justify-between'>
                 <p className='text-[2.5rem] font-[PoppinsBold]'>Know the Dangers</p>
-                <div>
+                <div className='hidden lg:block'>
                     <Image src={floodMaps} alt='flood map' />
                 </div>
             </div>
-            <div className='p-[50px] font-[PoppinsLight] flex flex-col gap-y-[20px]'>
+            <div className='pt-[20px] lg:pt-0 lg:px-[20px] lg:p-[50px] font-[PoppinsLight] flex flex-col gap-y-[20px]'>
                 <div>
                     <div className='flex gap-[10px] items-center'>
                         <Image className='w-[32px] h-[32px]' src={waterUpArrow} alt='Water Up Arrow Icon' />
