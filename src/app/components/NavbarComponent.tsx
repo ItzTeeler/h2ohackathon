@@ -9,7 +9,7 @@ const NavbarComponent = () => {
     };
   return (
     <>
-            <div className='bg-black h-[90px] flex justify-between items-center text-white px-[50px] py-[20px]'>
+            <div className='bg-black h-[90px] flex justify-between items-center text-white px-[50px] py-[18px]'>
                 <div>
                     <p className='font-[ProximaNovaLight] text-[40px]'>hi</p>
                 </div>
@@ -29,7 +29,7 @@ const NavbarComponent = () => {
                         <a href="#about">about</a>
                         <a href="#skills">skills</a>
                         <a href="#projects">projects</a>
-                        <a href="#contact">fqa</a>
+                        <a href="#contact">faq</a>
 
                     </div>
                 </div>
