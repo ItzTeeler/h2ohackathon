@@ -1,7 +1,12 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const NavbarComponent = () => {
+
+    useEffect(() => {
+        document.body.style.backgroundColor = "#1d1f21";
+    })
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -9,15 +14,15 @@ const NavbarComponent = () => {
     };
   return (
     <>
-            <div className='sticky navbg h-[86px] flex justify-between items-center text-white px-[50px] py-[16px]'>
+            <div className='sticky top-0 navbg h-[86px] flex justify-between items-center text-white px-[50px] py-[16px] z-50'>
                 <div className='flex'>
                     <p className='text-[40px] me-10 font-bold cursor-pointer'>H2O+</p>
                     <div className='hidden lg:block'>
                     <div className=' flex gap-x-[30px] font-[ProximaNovaLight] text-[16px] h-full text-[#BBBCBC]'>
-                        <a className='my-auto' href="#about">Know the Dangers</a>
-                        <a className='my-auto' href="#skills">About Us</a>
-                        <a className='my-auto' href="#projects">projects</a>
-                        <a className='my-auto' href="#contact">FAQ</a>
+                        <a className='my-auto hover:text-[#d3d5d5]' href="#about">Know the Dangers</a>
+                        <a className='my-auto hover:text-[#d3d5d5]' href="#skills">About Us</a>
+                        <a className='my-auto hover:text-[#d3d5d5]' href="#projects">projects</a>
+                        <a className='my-auto hover:text-[#d3d5d5]' href="#contact">FAQ</a>
 
                     </div>
                 </div>
